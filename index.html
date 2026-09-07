@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>1866universe — Multidisciplinary Research & Computational Artifacts</title>
+  <meta name="description" content="1866universe: Open multidisciplinary research exploring astronomy, computational linguistics, and interactive knowledge systems.">
+  <link rel="canonical" href="https://1866universe.github.io/">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://1866universe.github.io/">
+  <meta property="og:site_name" content="1866universe">
+  <meta property="og:title" content="1866universe — Multidisciplinary Research & Computational Artifacts">
+  <meta property="og:description" content="Open multidisciplinary research exploring astronomy, computational linguistics, and interactive knowledge systems.">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="1866universe — Multidisciplinary Research & Computational Artifacts">
+  <meta name="twitter:description" content="Open multidisciplinary research exploring astronomy, computational linguistics, and interactive knowledge systems.">
+
+  <!-- JSON-LD Structured Data for Search Engines -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ResearchOrganization",
+    "name": "1866universe",
+    "url": "https://1866universe.github.io/",
+    "sameAs": [
+      "https://github.com/1866universe"
+    ],
+    "description": "Open multidisciplinary research exploring astronomy, computational linguistics, and interactive knowledge systems.",
+    "hasPart": [
+      {
+        "@type": "CreativeWork",
+        "name": "Samavi Calendar",
+        "url": "https://1866universe.github.io/samavi-calendar/",
+        "description": "An astronomical research model and solar calendar engine based on celestial event intervals."
+      },
+      {
+        "@type": "CreativeWork",
+        "name": "LingoDirect",
+        "url": "https://1866universe.github.io/lingodirect-config/",
+        "description": "A direct language-pair translation framework and configuration toolkit for multilingual communication."
+      },
+      {
+        "@type": "CreativeWork",
+        "name": "Word-by-Word Positional-Sequential Mapping",
+        "url": "https://1866universe.github.io/ebook-Word-by-Word.Positional.Sequential.Mapping/",
+        "description": "A computational-linguistics methodology for positional, sequential word-by-word mapping across texts."
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --bg: #0a0a0f;
+      --card-bg: #12131a;
+      --card-border: #1e202e;
+      --card-hover: #26293b;
+      --text: #e2e8f0;
+      --text-muted: #94a3b8;
+      --accent: #4f8cff;
+      --accent-glow: rgba(79, 140, 255, 0.15);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      padding: 3rem 1.5rem 2rem;
+    }
+
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      width: 100%;
+      flex: 1;
+    }
+
+    header {
+      margin-bottom: 3.5rem;
+      border-bottom: 1px solid var(--card-border);
+      padding-bottom: 2rem;
+    }
+
+    h1 {
+      font-size: 2.25rem;
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      color: #ffffff;
+      margin-bottom: 0.5rem;
+    }
+
+    .tagline {
+      font-size: 1.15rem;
+      color: var(--accent);
+      font-weight: 500;
+      margin-bottom: 1.25rem;
+    }
+
+    .mission {
+      color: var(--text-muted);
+      font-size: 1rem;
+      max-width: 680px;
+    }
+
+    .section-title {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--text-muted);
+      margin-bottom: 1.25rem;
+      font-weight: 600;
+    }
+
+    .grid {
+      display: grid;
+      gap: 1.25rem;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      margin-bottom: 3.5rem;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 8px;
+      padding: 1.5rem;
+      text-decoration: none;
+      color: inherit;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: all 0.2s ease-in-out;
+    }
+
+    .card:hover {
+      border-color: var(--accent);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px var(--accent-glow);
+    }
+
+    .card h2 {
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: #ffffff;
+      margin-bottom: 0.5rem;
+    }
+
+    .card p {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      flex: 1;
+      margin-bottom: 1rem;
+    }
+
+    .card .link-hint {
+      font-size: 0.85rem;
+      color: var(--accent);
+      font-weight: 500;
+    }
+
+    footer {
+      border-top: 1px solid var(--card-border);
+      padding-top: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    @media (min-width: 640px) {
+      footer {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 1.25rem;
+    }
+
+    .footer-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: color 0.15s ease;
+    }
+
+    .footer-links a:hover {
+      color: #ffffff;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>1866universe</h1>
+      <p class="tagline">Multidisciplinary Research &amp; Computational Artifacts</p>
+      <p class="mission">
+        An open initiative exploring astronomy, computational linguistics, and interactive knowledge systems — building lasting artifacts that belong to all humanity.
+      </p>
+    </header>
+
+    <main>
+      <div class="section-title">Public Artifacts &amp; Research Engines</div>
+      <div class="grid">
+        <a class="card" href="https://1866universe.github.io/samavi-calendar/">
+          <div>
+            <h2>Samavi Calendar</h2>
+            <p>An astronomical research model and solar calendar engine based on celestial event intervals.</p>
+          </div>
+          <span class="link-hint">Launch System &rarr;</span>
+        </a>
+
+        <a class="card" href="https://1866universe.github.io/lingodirect-config/">
+          <div>
+            <h2>LingoDirect</h2>
+            <p>A direct language-pair translation framework and configuration toolkit for multilingual communication.</p>
+          </div>
+          <span class="link-hint">Explore Toolkit &rarr;</span>
+        </a>
+
+        <a class="card" href="https://1866universe.github.io/ebook-Word-by-Word.Positional.Sequential.Mapping/">
+          <div>
+            <h2>Positional Mapping</h2>
+            <p>A computational-linguistics methodology for positional, sequential word-by-word mapping across texts.</p>
+          </div>
+          <span class="link-hint">Open Monograph &rarr;</span>
+        </a>
+      </div>
+    </main>
+
+    <footer>
+      <span>&copy; 2026 1866universe</span>
+      <div class="footer-links">
+        <a href="https://github.com/1866universe" target="_blank" rel="noopener">GitHub Profile</a>
+        <a href="https://github.com/1866universe/1866universe" target="_blank" rel="noopener">Source Repositories</a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
