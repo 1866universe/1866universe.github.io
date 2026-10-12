@@ -1,18 +1,67 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://1866universe.github.io/</loc>
-    <lastmod>2026-09-07</lastmod>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://1866universe.github.io/1866universe/</loc>
-    <lastmod>2026-09-07</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://1866universe.github.io/1866universe/README_FA.html</loc>
-    <lastmod>2026-09-07</lastmod>
-    <priority>0.6</priority>
-  </url>
-</urlset>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>1866universe — Multidisciplinary Research & Computational Artifacts</title>
+  <meta name="description" content="1866universe: Open multidisciplinary research exploring astronomy, computational linguistics, and interactive knowledge systems.">
+  <link rel="canonical" href="https://1866universe.github.io/">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://1866universe.github.io/">
+  <meta property="og:site_name" content="1866universe">
+  <meta property="og:title" content="1866universe — Multidisciplinary Research & Computational Artifacts">
+  <meta property="og:description" content="1866universe: Open multidisciplinary research exploring astronomy, computational linguistics, and interactive knowledge systems.">
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ResearchOrganization",
+    "name": "1866universe",
+    "url": "https://1866universe.github.io/",
+    "sameAs": [
+      "https://github.com/1866universe",
+      "https://plump-fox-40f.notion.site/1866universe-3f6bd65adc2c8089a050e289b4e74da9"
+    ],
+    "description": "Open multidisciplinary research exploring astronomy, computational linguistics, and interactive knowledge systems."
+  }
+  </script>
+
+  <style>
+    :root { --bg: #0a0a0f; --card-bg: #12131a; --card-border: #1e202e; --text: #e2e8f0; --text-muted: #94a3b8; --accent: #4f8cff; }
+    body { background-color: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; padding: 3rem 1.5rem; }
+    .container { max-width: 860px; margin: 0 auto; }
+    header { margin-bottom: 3.5rem; border-bottom: 1px solid var(--card-border); padding-bottom: 2rem; }
+    h1 { font-size: 2.25rem; color: #ffffff; margin: 0 0 0.5rem 0; }
+    header p { color: var(--text-muted); font-size: 1.1rem; margin: 0; }
+    .hub-card { border: 1px solid var(--accent); background: #1a1e30; padding: 2rem; border-radius: 8px; text-decoration: none; color: white; display: block; transition: border-color 0.2s, background-color 0.2s; }
+    .hub-card:hover { background-color: #20263d; border-color: #70a5ff; }
+    .hub-card h2 { margin: 0 0 0.5rem 0; font-size: 1.5rem; color: #ffffff; }
+    .hub-card p { margin: 0; color: var(--text-muted); line-height: 1.5; }
+    .footer-links { margin-top: 3rem; color: var(--text-muted); font-size: 0.9rem; }
+    .footer-links a { color: var(--accent); text-decoration: none; }
+    .footer-links a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>1866universe</h1>
+      <p>Multidisciplinary Research & Computational Artifacts</p>
+    </header>
+
+    <main>
+      <a class="hub-card" href="https://plump-fox-40f.notion.site/1866universe-3f6bd65adc2c8089a050e289b4e74da9" target="_blank" rel="noopener noreferrer">
+        <h2>Enter 1866universe Hub (Notion) &rarr;</h2>
+        <p>Access the central research portal, verified project directory, and computational artifacts.</p>
+      </a>
+    </main>
+
+    <footer class="footer-links">
+      <p>&copy; 2026 1866universe | <a href="https://1866universe.github.io/sitemap.xml">Sitemap</a> | <a href="https://github.com/1866universe" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+    </footer>
+  </div>
+</body>
+</html>
